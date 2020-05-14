@@ -4,10 +4,6 @@ const close = document.getElementById("close");
 const open = document.getElementById("open");
 const modal = document.getElementById("modal");
 
-//! GLOBAL VARIABLES
-
-//! FUNCTIONS
-
 //! EVENT LISTENERS
 //* Toggle nav
 toggle.addEventListener("click", () =>
@@ -21,5 +17,3 @@ close.addEventListener("click", () => modal.classList.remove("show-modal"));
 window.addEventListener("click", (e) =>
   e.target == modal ? modal.classList.remove("show-modal") : false
 );
-
-//! EXECUTION
